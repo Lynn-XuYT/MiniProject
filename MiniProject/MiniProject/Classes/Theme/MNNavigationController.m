@@ -28,6 +28,9 @@
         // 禁止使用系统自带的滑动手势
         self.interactivePopGestureRecognizer.enabled = NO;
         
+        self.navigationBar.barTintColor = [UIColor whiteColor];
+        self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor blackColor],NSFontAttributeName:[UIFont systemFontOfSize:17.0]};
+        
     }
     return self;
 }
